@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumas - All Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            {% comment %} background: linear-gradient(135deg, #ff7eb3, #ff758c, #ff5c7a); {% endcomment %}
+            background: gray;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .logo {
+            width: 100px;
+            margin: 20px auto;
+        }
+        .cover-image {
+            width: 100%;
+            max-height: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #ff5c7a;
+            margin: 10px 0;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .links a {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            border: 2px solid #ff5c7a;
+            border-radius: 8px;
+            color: #ff5c7a;
+            text-decoration: none;
+            font-size: 16px;
+            background: #fff;
+            transition: all 0.3s ease;
+        }
+        .links a img {
+            width: 20px;
+            height: 20px;
+        }
+        .links a:hover {
+            background: #ff5c7a;
+            color: #fff;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Cover Image -->
+        <img src="img/cover1.jpeg" alt="Cover Image" class="cover-image">
+
+        <!-- Logo -->
+        <img src="img/logo.jpeg" alt="Kumas Logo" class="logo">
+        
+        <!-- Title and Description -->
+        <h1>Welcome to Kumas</h1>
+        <p>Your trusted clothing brand for premium-quality underwear and more!</p>
+
+        <!-- Links -->
+        <div class="links">
+            <a href="https://www.instagram.com/kumasbd1/" target="_blank">
+                <img src="img/insta.png" alt="Instagram"> Instagram
+            </a>
+            <a href="https://www.facebook.com/kumasofficialpage" target="_blank">
+                <img src="img/fb.png" alt="Facebook"> Facebook
+            </a>
+            <a href="https://shop.zatiqeasy.com/merchant/31436" target="_blank">
+                <img src="img/web.png" alt="Website"> Official Website
+            </a>
+            <a href="mailto:hellotarek7@gmail.com">
+                📧 Email Us
+            </a>
+            <a href="tel:+880188692103">
+                📞 Call Us: +880188692103
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <p>Stay connected and explore our latest collections!</p>
+        <div class="footer">
+            &copy; 2025 Kumas. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
